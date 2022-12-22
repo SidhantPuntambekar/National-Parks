@@ -10,11 +10,6 @@ import Combine
 
 final class ModelData: ObservableObject {
     @Published var nationalParks: [NationalPark] = load("nationalParkData.json")
-    // var hikes: [Hike] = load("hikeData.json")
-
-//    var features: [Landmark] {
-//        landmarks.filter { $0.isFeatured }
-//    }
 
     var categories: [String: [NationalPark]] {
         Dictionary(

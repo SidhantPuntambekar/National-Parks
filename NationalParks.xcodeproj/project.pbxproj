@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8459212429526924001AAD1E /* NationalParksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8459212329526924001AAD1E /* NationalParksApp.swift */; };
+		8459212629526924001AAD1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8459212529526924001AAD1E /* ContentView.swift */; };
+		8459212829526925001AAD1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8459212729526925001AAD1E /* Assets.xcassets */; };
+		8459212B29526925001AAD1E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8459212A29526925001AAD1E /* Preview Assets.xcassets */; };
+		8459213629526B4F001AAD1E /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8459213529526B4F001AAD1E /* CategoryHome.swift */; };
+		8459213829526CB7001AAD1E /* NationalPark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8459213729526CB7001AAD1E /* NationalPark.swift */; };
+		8459213A29526D0A001AAD1E /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8459213929526D0A001AAD1E /* ModelData.swift */; };
+		8459213E29527D6E001AAD1E /* nationalParkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 8459213C29527D6E001AAD1E /* nationalParkData.json */; };
+		84E9136529528AEF0018982F /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E9136429528AEF0018982F /* CategoryRow.swift */; };
+		84E91367295290B30018982F /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E91366295290B30018982F /* CategoryItem.swift */; };
+		84E9136A295391170018982F /* NationalParkDetailed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E91369295391170018982F /* NationalParkDetailed.swift */; };
+		84E9136D295396110018982F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E9136C295396110018982F /* MapView.swift */; };
+		84E9136F295396700018982F /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E9136E295396700018982F /* CircleImage.swift */; };
+		84E913712953973C0018982F /* VisitedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E913702953973C0018982F /* VisitedButton.swift */; };
+		84E913732953A1C50018982F /* NationalParkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E913722953A1C50018982F /* NationalParkList.swift */; };
+		84E913752953A3B90018982F /* NationalParkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E913742953A3B90018982F /* NationalParkRow.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8459212029526924001AAD1E /* NationalParks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NationalParks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8459212329526924001AAD1E /* NationalParksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationalParksApp.swift; sourceTree = "<group>"; };
+		8459212529526924001AAD1E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8459212729526925001AAD1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = NationalParks/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		8459212A29526925001AAD1E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8459213529526B4F001AAD1E /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
+		8459213729526CB7001AAD1E /* NationalPark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationalPark.swift; sourceTree = "<group>"; };
+		8459213929526D0A001AAD1E /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		8459213C29527D6E001AAD1E /* nationalParkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nationalParkData.json; sourceTree = "<group>"; };
+		84E9136429528AEF0018982F /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		84E91366295290B30018982F /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
+		84E91369295391170018982F /* NationalParkDetailed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationalParkDetailed.swift; sourceTree = "<group>"; };
+		84E9136C295396110018982F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		84E9136E295396700018982F /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		84E913702953973C0018982F /* VisitedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitedButton.swift; sourceTree = "<group>"; };
+		84E913722953A1C50018982F /* NationalParkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationalParkList.swift; sourceTree = "<group>"; };
+		84E913742953A3B90018982F /* NationalParkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationalParkRow.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8459211D29526924001AAD1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8459211729526924001AAD1E = {
+			isa = PBXGroup;
+			children = (
+				8459212229526924001AAD1E /* NationalParks */,
+				8459212129526924001AAD1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8459212129526924001AAD1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8459212029526924001AAD1E /* NationalParks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8459212229526924001AAD1E /* NationalParks */ = {
+			isa = PBXGroup;
+			children = (
+				84592133295269D8001AAD1E /* Resources */,
+				84592132295269BF001AAD1E /* Views */,
+				84592131295269AD001AAD1E /* Model */,
+				8459212329526924001AAD1E /* NationalParksApp.swift */,
+				8459212729526925001AAD1E /* Assets.xcassets */,
+				8459212929526925001AAD1E /* Preview Content */,
+			);
+			path = NationalParks;
+			sourceTree = "<group>";
+		};
+		8459212929526925001AAD1E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8459212A29526925001AAD1E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84592131295269AD001AAD1E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8459213729526CB7001AAD1E /* NationalPark.swift */,
+				8459213929526D0A001AAD1E /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84592132295269BF001AAD1E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84E9136B295396050018982F /* Utils */,
+				84E91368295390FC0018982F /* NationalParks */,
+				8459213429526B33001AAD1E /* Categories */,
+				8459212529526924001AAD1E /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		84592133295269D8001AAD1E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8459213C29527D6E001AAD1E /* nationalParkData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8459213429526B33001AAD1E /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				8459213529526B4F001AAD1E /* CategoryHome.swift */,
+				84E9136429528AEF0018982F /* CategoryRow.swift */,
+				84E91366295290B30018982F /* CategoryItem.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		84E91368295390FC0018982F /* NationalParks */ = {
+			isa = PBXGroup;
+			children = (
+				84E91369295391170018982F /* NationalParkDetailed.swift */,
+				84E913722953A1C50018982F /* NationalParkList.swift */,
+				84E913742953A3B90018982F /* NationalParkRow.swift */,
+			);
+			path = NationalParks;
+			sourceTree = "<group>";
+		};
+		84E9136B295396050018982F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				84E9136C295396110018982F /* MapView.swift */,
+				84E9136E295396700018982F /* CircleImage.swift */,
+				84E913702953973C0018982F /* VisitedButton.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8459211F29526924001AAD1E /* NationalParks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8459212E29526925001AAD1E /* Build configuration list for PBXNativeTarget "NationalParks" */;
+			buildPhases = (
+				8459211C29526924001AAD1E /* Sources */,
+				8459211D29526924001AAD1E /* Frameworks */,
+				8459211E29526924001AAD1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NationalParks;
+			productName = NationalParks;
+			productReference = 8459212029526924001AAD1E /* NationalParks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8459211829526924001AAD1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					8459211F29526924001AAD1E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 8459211B29526924001AAD1E /* Build configuration list for PBXProject "NationalParks" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8459211729526924001AAD1E;
+			productRefGroup = 8459212129526924001AAD1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8459211F29526924001AAD1E /* NationalParks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8459211E29526924001AAD1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8459212B29526925001AAD1E /* Preview Assets.xcassets in Resources */,
+				8459212829526925001AAD1E /* Assets.xcassets in Resources */,
+				8459213E29527D6E001AAD1E /* nationalParkData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8459211C29526924001AAD1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8459212629526924001AAD1E /* ContentView.swift in Sources */,
+				84E913712953973C0018982F /* VisitedButton.swift in Sources */,
+				8459213829526CB7001AAD1E /* NationalPark.swift in Sources */,
+				8459213A29526D0A001AAD1E /* ModelData.swift in Sources */,
+				84E91367295290B30018982F /* CategoryItem.swift in Sources */,
+				84E913732953A1C50018982F /* NationalParkList.swift in Sources */,
+				84E913752953A3B90018982F /* NationalParkRow.swift in Sources */,
+				8459213629526B4F001AAD1E /* CategoryHome.swift in Sources */,
+				84E9136A295391170018982F /* NationalParkDetailed.swift in Sources */,
+				84E9136F295396700018982F /* CircleImage.swift in Sources */,
+				84E9136529528AEF0018982F /* CategoryRow.swift in Sources */,
+				84E9136D295396110018982F /* MapView.swift in Sources */,
+				8459212429526924001AAD1E /* NationalParksApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8459212C29526925001AAD1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8459212D29526925001AAD1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8459212F29526925001AAD1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NationalParks/Preview Content\"";
+				DEVELOPMENT_TEAM = 8Q3Q97Z26N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sidhant-Puntambekar.NationalParks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8459213029526925001AAD1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NationalParks/Preview Content\"";
+				DEVELOPMENT_TEAM = 8Q3Q97Z26N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sidhant-Puntambekar.NationalParks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8459211B29526924001AAD1E /* Build configuration list for PBXProject "NationalParks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8459212C29526925001AAD1E /* Debug */,
+				8459212D29526925001AAD1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8459212E29526925001AAD1E /* Build configuration list for PBXNativeTarget "NationalParks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8459212F29526925001AAD1E /* Debug */,
+				8459213029526925001AAD1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8459211829526924001AAD1E /* Project object */;
+}
